@@ -12,10 +12,8 @@ This project applies **shapelet-based time series classification** to analyze an
 - **Light Curves**: Time series of photon count rates that capture brightness variations over time.
 - **Shapelets**: Local subsequences extracted from time series data that are most representative of specific classes. Used for classification through pattern matching.
 - **Chi-Square Distance**: The matching metric is computed as:
-  
-  $$
-  \chi^2 = \frac{1}{\text{dof}} \sum_{i=1}^N \frac{(L[i+d] - S[i])^2}{\sigma_S^2 + \sigma_L^2}
-  $$
+
+  `χ² = (1/dof) ∑ (L[i + d] − S[i])² / (σ_S² + σ_L²)`
 
 - **Normalization**: Both light curves and shapelets are z-normalized to handle intensity shifts and scaling artifacts.
 - **Efficient Cut**: A threshold $\chi^2_\text{cut}$ is defined to select valid matches, minimizing false positives in anomaly detection.
