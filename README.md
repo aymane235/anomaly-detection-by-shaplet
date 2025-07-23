@@ -1,3 +1,7 @@
+## TODO: NEED TO ADD DATA SOURCE AND HOW TO US TUTORIAL NOTEBOOK
+## TODO: NEED TO ADD AN EXPLANATION OF CLASSES FILE
+## TODO: NEED TO ADD REFERENCES AND PAPERS USED FOR THIS STUDY,AND MY REPORT
+
 This is a project done in an internship under the supervision of Gangler Emmanuel,a very genius physicist/astrophysicist,who
 worked on particle physics and now on astrophysics,especially on data analysis and anomaly detection.
 ## Project Summary
